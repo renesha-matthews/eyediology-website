@@ -25,50 +25,63 @@
 
     </head>
     <body>
-        <header>
-            <!-- Logo -->
-            <a href="index.html"><img class="logo" src="images/logo.png" alt="Eyediology Logo" title="Eyediology Logo" width=250></a>
-
-            <div class="menu-flex-container">
-
-                <p class="menu">Menu</p>
+        <header class="site-header">
+            <div class="wrapper site-header_wrapper">
+              <!-- Logo -->
+              <a href="index.html"><img class="logo" src="images/logo.png" alt="Eyediology Logo" title="Eyediology Logo" width=250></a>
   
-                <!-- nav -->
-                   <nav class="primary">
-                       <div class="header__container">
-                         <ul>
-                           <li class="mobile-nav">
-                             <button id="nav-toggle">
-                               <span class="menu"></span>
-                             </button>
-                           </li>
-                         </ul>
-                       </div>
+              <div class="menu-flex-container">
+  
+                  <p class="menu">Menu</p>
+    
+                  <!-- Mobile Nav Menu -->
+                     <nav class="primary">
+                         <div class="header__container">
+                           <ul>
+                             <li class="mobile-nav">
+                               <button id="nav-toggle">
+                                 <span class="menu"></span>
+                               </button>
+                             </li>
+                           </ul>
+                         </div>
+                     </nav>
+          
+                    <nav class="mobile">
+                      <ul>
+                        <li class="link">
+                          <a href="index.html">Home</a>
+                        </li>
+                        <li class="link">
+                          <a href="about.html">About Us</a>
+                        </li>
+                        <li class="link">
+                          <a href="products.html">Products</a>
+                        </li>
+                        <li class="link link--selected">
+                          <a href="blog.html">Blog</a>
+                        </li>
+                        <li class="link link--selected">
+                          <a href="contact.html">Contact</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  <!-- End Mobile Nav Menu -->               
+                 </div>
+  
+                 <!-- Desktop Menu -->
+                   <nav class="desktop-nav">
+                     <ul>
+                      <li><a href="index.html">Home</a></li>
+                       <li><a href="about.html">About Us</a></li>
+                       <li><a href="products.html">Products</a></li>
+                       <li><a href="blog.html">Blog</a></li>
+                       <li><a class="contact-button" href="contact.html"><span class="white-text blue-text">Contact</span></a></li>
+                     </ul>
                    </nav>
-        
-                <!-- /nav -->
-                <!-- mobile nav menu -->
-                  <nav class="mobile">
-                    <ul>
-                      <li class="link">
-                        <a href="index.html">Home</a>
-                      </li>
-                      <li class="link">
-                        <a href="about.html">About Us</a>
-                      </li>
-                      <li class="link">
-                        <a href="products.html">Products</a>
-                      </li>
-                      <li class="link link--selected">
-                        <a href="blog.html">Blog</a>
-                      </li>
-                      <li class="link link--selected">
-                        <a href="contact.html">Contact</a>
-                      </li>
-                    </ul>
-                  </nav>
-                <!-- /mobile nav menu -->
-        </header>
+                 <!-- End Desktop Menu -->
+              </div>
+          </header>
         <script src="scripts/script.js"></script>
     </body>
 </html>

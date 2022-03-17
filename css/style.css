@@ -231,7 +231,7 @@ footer ul li a {
 /* Social Media Icons */
 .fa-brands {
   color: #20B2DA;
-  background-color: white;
+  background-color: #FFF;
   padding: 10px;
   border-radius: 26px;
   font-size: 30px;
@@ -303,6 +303,16 @@ footer ul li a {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+}
+
+.fa-brands {
+  transition: .3s;
+}
+
+.fa-brands:hover {
+  color: #FFF ;
+  background-color: #20B2DA;
+  transition: .3s;
 }
 
 .copyright {

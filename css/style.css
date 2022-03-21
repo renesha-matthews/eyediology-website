@@ -592,11 +592,6 @@ img.contact-fluid {
   display: inline;
 }
 
-/* input:hover {
-  text-decoration: underline;
-  font-weight: bolder;
-} */
-
 .input-section {
   margin-bottom: 10px;
 }
@@ -964,19 +959,11 @@ footer ul li a {
     font-size: 1.5rem;
   }
 
-  /* Sub-Content
-  .sub-content {
-    margin: 0px 500px;
-  } */
 
   /* Testimonials */
   .boxes {
     margin: 0px 400px;
   }
 
-  /* Category Section
-  .category-container {
-    margin: 0px 530px;
-  } */
 }
 /**** End 1920px Media Query ****/

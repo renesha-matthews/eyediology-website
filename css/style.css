@@ -302,6 +302,21 @@ li.mobile-nav {
   margin-left: auto;
 }
 
+/* Bestseller Section */
+.best-seller-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.best-sellers figure {
+  margin: 10px;
+}
+
+.best-sellers figcaption {
+  text-align: center;
+}
+
 /* Customer Testimonial Section */
 .customer-testimonials {
   text-align: center;
@@ -452,6 +467,20 @@ footer ul li a {
 
 /**** End 517px Media Query ****/
 
+/**** Start 557px Media Query ****/
+@media(min-width: 557px) {
+  .newsletter-signup p {
+    font-size: 1.5rem;
+  }
+
+  input {
+    margin: 0px 10px;
+  }
+
+}
+
+/**** End 557px Media Query ****/
+
 /**** Start 665px Media Query ****/
 @media (min-width: 665px) {
   .banner-image {
@@ -582,6 +611,10 @@ footer ul li a {
 
 /**** Start 1920px Media Query ****/
 @media (min-width: 1920px) {
+  .desktop-nav ul li a {
+    font-size: 1.5rem;
+  }
+  
   h1 {
     font-size: 8rem;
   }

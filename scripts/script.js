@@ -1,6 +1,5 @@
 // Hamburger Menu
 // CodePen: https://codepen.io/waldyp/pen/aPoVZN
-
 $(document).ready(function(){
     $('#nav-toggle').click(function(){
       if($(this).hasClass('open')){
@@ -12,4 +11,5 @@ $(document).ready(function(){
       }
     });
   });
+				
 

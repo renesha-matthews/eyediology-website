@@ -547,6 +547,13 @@ figcaption.category-label {
 }
 
 /******************** Contact Page ********************/
+img.contact-fluid {
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 390px;
+}
+
 /*FORM CSS*/
 .container{
   max-width: 100%;
@@ -846,6 +853,15 @@ footer ul li a {
 }
 
 /**** End 992px Media Query ****/
+
+/**** Start 1000px Media Query ****/
+@media(min-width: 1000px) {
+  img.contact-fluid {
+    height: 890px;
+  }
+}
+
+/**** End 1000px Media Query ****/
 
 /**** Start 1200px Media Query ****/
 @media (min-width: 1200px) {

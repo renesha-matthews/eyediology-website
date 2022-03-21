@@ -120,7 +120,6 @@ li.mobile-nav {
     text-align: right;
     display: block;
     height: 4.5rem;
-    /* vertical-align: middle;  */
   }
   
   /* Hamburger Menu */ 
@@ -257,7 +256,6 @@ li.mobile-nav {
   display: none;
 }
 
-
 /******************** Home Page ********************/
 
 /* Banner Section */
@@ -382,7 +380,6 @@ figcaption.category-label {
 }
 
 
-
 /* Newsletter Signup Section */
 .newsletter-signup {
   background-color: #C7EDF7;
@@ -391,7 +388,7 @@ figcaption.category-label {
   margin-bottom: 0;
 }
 
-input {
+.newsletter-form {
   margin: 10px auto;
   padding: 6px;
 }
@@ -409,7 +406,210 @@ input {
   margin: 10px;
 }
 
+/******************** Blog Page ********************/
+.container {
+  align-items: center;
+  padding-left: 5%;
+  width: 100%;
+  text-align: left;
+}
+.post-single{
+  align-items: center;
+  text-align: justify;
+}
+.container-fluid {
+  width: 100%;
+}
+.blog-post {
+  padding-left: 0;
+  padding-right: 0;
+}
 
+.blog-post .post-thumbnail img {
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.post a {
+  text-decoration: none;
+}
+
+.post a:hover, .post a:focus {
+  text-decoration: none;
+}
+
+.post h3 {
+  line-height: 1.1em;
+  color: #222;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 1rem;
+}
+
+.post h3:hover {
+  color: #555;
+}
+
+.post .category a {
+  color: #999;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.post .date {
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #aaa;
+}
+.post-body{
+  width: 80%;
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+}
+
+.blog-post h1:hover {
+  color: #444;
+}
+.blog-post .post-thumbnail img {
+  width: 70%;
+  margin-bottom: 10px;
+}
+.blog-post .post-body {
+  margin-top: 10px;
+}
+
+.blog-post .post-body h2,
+.blog-post .post-body h3,
+.blog-post .post-body h4,
+.blog-post .post-body h5,
+.blog-post .post-body h6 {
+  color: #333;
+}
+
+.blog-post .post-body p {
+  margin-bottom: 30px;
+}
+
+.blog-post .post-body p:not(.lead) {
+  font-size: 1em;
+  line-height: 1.7em;
+  color: #555;
+}
+
+
+/**** Latest ****/
+.pb-5{
+  display: inline;
+  width: 100%;
+}
+.grid-item {
+  width: 25%;
+  display: inline-grid;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.lat-post{
+  color: #07262F;
+}
+
+
+.content-thumbnail img {
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+/******************** Contact Page ********************/
+/*FORM CSS*/
+.container{
+  max-width: 100%;
+  margin: 50px auto 80px;
+  text-align: center;
+  color: white;
+}
+
+
+.contact-form {
+  display: list-item;
+  align-content: flex-end;
+  padding: 20px;
+  max-width: 80%;
+  border-radius: 4px;
+  color: white;
+  font-family: sans-serif;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.reset input,
+.submit input {
+  background: none;
+  color:#20B2DA;
+  padding: 5px 20px;
+  background-color: #07262F;
+}
+
+.reset,
+.submit {
+  display: inline;
+}
+input:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+.radiobutton{
+  text-align: center;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 3px;
+  width: 60%;
+}
+
+textarea {
+    font-family: sans-serif;
+    padding: 10px 10px;
+    border-radius: 4px
+}
+select {
+  max-width: 180px;
+  padding: 8px 0;
+  border-radius: 4px
+}
+label{
+  font-weight: bold;
+  color:#07262F;
+  text-align: left;
+}
+.submit .input-section{
+  color: #20B2DA;
+}
+.radiobutton {
+  text-align: left;
+}
 
 /******************** Footer ********************/
 footer {
@@ -448,6 +648,26 @@ footer ul li a {
 }
 
 /******************** Media Queries ********************/
+/**** Start 350px Media Query ****/
+@media (max-width: 350px) {
+  section.featured-posts .text-inner {
+    padding: 15px;
+  }
+  section.featured-posts {
+    font-size: 0.75em;
+  }
+  .post-heading {
+    display: block;
+    font-size: 1.1em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+}
+/**** End 420px Media Query ****/
+
 /**** Start 420px Media Query ****/
 @media(min-width: 420px) {
   .sub-section h2, .sub-section p {
@@ -504,6 +724,23 @@ footer ul li a {
 
 /**** End 557px Media Query ****/
 
+/**** Start 575px Media Query ****/
+@media (max-width: 575px) {
+  section.featured-posts {
+    font-size: 0.9em;
+  }
+  .post-heading {
+    display: block;
+    font-size: 1.3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+}
+/**** End 575px Media Query ****/
+
 /**** Start 665px Media Query ****/
 @media (min-width: 665px) {
   .banner-image {
@@ -542,6 +779,36 @@ footer ul li a {
 }
 
 /**** End 768px Media Query ****/
+
+/**** Start 991px Media Query ****/
+@media (max-width: 991px) {
+  section.featured-posts .image {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    max-height: 300px;
+    min-height: auto !important;
+  }
+  section.featured-posts .image img {
+    width: 100%;
+    height: auto !important;
+  }
+  section.featured-posts .text {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .post-heading {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+}
+/**** End 991px Media Query ****/
 
 /**** Start 992px Media Query ****/
 @media(min-width: 992px) {
@@ -655,6 +922,4 @@ footer ul li a {
     margin: 0px 400px;
   }
 }
-
 /**** End 1920px Media Query ****/
-

@@ -396,6 +396,20 @@ input {
   padding: 6px;
 }
 
+/******************** About Page ********************/
+.about-page section {
+  margin-top: 20px;
+}
+
+.about-page h2 {
+  margin-left: 10px;
+}
+
+.about-page ul li {
+  margin: 10px;
+}
+
+
 
 /******************** Footer ********************/
 footer {
@@ -466,6 +480,15 @@ footer ul li a {
 }
 
 /**** End 517px Media Query ****/
+
+/**** Start 550px Media Query ****/
+@media (min-width:500px) {
+  .map {
+    margin-left: 10px;
+  }
+}
+
+/**** End 550px Media Query ****/
 
 /**** Start 557px Media Query ****/
 @media(min-width: 557px) {

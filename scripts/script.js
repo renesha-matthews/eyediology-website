@@ -1,3 +1,4 @@
+
 // Hamburger Menu
 // CodePen: https://codepen.io/waldyp/pen/aPoVZN
 $(document).ready(function(){
@@ -11,7 +12,6 @@ $(document).ready(function(){
       }
     });
   });
-
  
   // Contact Form
   $(document).ready(function(){

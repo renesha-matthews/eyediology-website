@@ -16,7 +16,6 @@ font-family: myriad-pro, sans-serif;
 * {
     padding: 0;
     margin: 0;
-    border: 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
@@ -400,6 +399,7 @@ figcaption.category-label {
 
 .subscribe-field {
   padding: 6px;
+  border: 0;
 }
 
 /******************** About Page ********************/

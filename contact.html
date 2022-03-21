@@ -34,6 +34,7 @@
 
     </head>
     <body>
+      <!-- Header -->
       <header class="site-header">
         <div class="wrapper site-header_wrapper">
           <!-- Logo -->
@@ -56,7 +57,7 @@
                      </div>
                  </nav>
       
-                 <nav class="mobile">
+                <nav class="mobile">
                   <ul>
                     <li class="link">
                       <a href="index.html">Home</a>
@@ -95,22 +96,22 @@
       <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="validateForm(this)">
         <div class="first-name input-section">
           <label for="firstname" class="label_input_wrap">First Name:</label>
-          <input type="text" name= "req_firstname" id="firstname" placeholder="First Name"/>
+          <input class="contact-input" type="text" name= "req_firstname" id="firstname" placeholder="First Name"/>
         </div>
   
         <div class="last-name input-section">
           <label for="lastname" class="label_input_wrap">Last Name:</label>
-          <input type="text" name= "lastname" id="lastname" placeholder="Last Name"/>
+          <input class="contact-input" type="text" name= "lastname" id="lastname" placeholder="Last Name"/>
         </div>
   
         <div class="email input-section">
           <label for="email" class="label_input_wrap">Email:</label>
-          <input type="email" name= "req_email" id="email" placeholder="ejaegr@gmail.com" />
+          <input class="contact-input" type="email" name= "req_email" id="email" placeholder="ejaegr@gmail.com" />
         </div>
   
         <div class="telephone input-section">
           <label for="telephone" class="label_input_wrap">Telephone:</label>
-          <input type="tel" name= "telephone" id="telephone" placeholder="555-555-5555" />
+          <input class="contact-input" type="tel" name= "telephone" id="telephone" placeholder="555-555-5555" />
         </div>
   
         <div class="comments input-section">
@@ -136,38 +137,42 @@
 
   
         <div class="submit input-section">
-          <input type="submit" value="Ask away!"/>
+          <input class="contact-input" type="submit" value="Ask away!"/>
         </div>
       </form>
 
       <!-- Footer -->
       <footer>
         <div class="footer-flex-container">
-          <img class="reverse-logo" src="images/reverse-logo.png" alt="Reverse Version of Eyediology Logo" title="Eyediology Reverse Logo" width="250">
+          <div class="row mx-5">
+            <div class="col-lg-3">
+              <img class="reverse-logo" src="images/reverse-logo.png" alt="Reverse Version of Eyediology Logo" title="Eyediology Reverse Logo" width="250">
+            </div>
+            
+            <div class="col-lg-3 footer-links">
+              <ul>
+                <li class="footer-headings">Site Links</li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+           
+            <div class="col-lg-3 footer-links">
+              <ul>
+                <li class="footer-headings">Get in Touch</li>
+                <li><a href="mailto:info@tnbglasses.com">info@tnbglasses.com</a></li>
+                <li><a href="tel:+18443874289">1-844-387-4289</a></li>
+              </ul>
+            </div>
 
-          <div class="footer-links">
-            <p class="footer-headings">Site Links</p>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="#">Return Policy</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-links">
-            <p class="footer-headings">Get in Touch</p>
-            <ul>
-              <li><a href="mailto:info@tnbglasses.com">info@tnbglasses.com</a></li>
-              <li><a href="tel:+18443874289">1-844-387-4289</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-socials">
-            <p class="footer-headings connect">Connect with Us</p>
-            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.twiiter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <div class="col-lg-3 footer-socials">
+              <p class="footer-headings connect">Connect with Us</p>
+              <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.twiiter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
           </div>
         </div>
 

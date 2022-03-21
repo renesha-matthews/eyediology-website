@@ -11,6 +11,9 @@
         <link rel="icon" type="image/ico" href="images/favicon.ico">
         <link rel="icon" type="image/png" href="images/favicon.png">
 
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css" media="all">
 
@@ -26,6 +29,7 @@
     </head>
 
     <body>
+        <!-- Header -->
         <header class="site-header">
           <div class="wrapper site-header_wrapper">
             <!-- Logo -->
@@ -65,9 +69,6 @@
                       <li class="link link--selected">
                         <a href="contact.html">Contact</a>
                       </li>
-                      <li class="link link--selected">
-                        <a href="#">Retail Login</a>
-                      </li>
                     </ul>
                   </nav>
                 <!-- End Mobile Nav Menu -->               
@@ -80,41 +81,142 @@
                      <li><a href="about.html">About Us</a></li>
                      <li><a href="products.html">Products</a></li>
                      <li><a href="blog.html">Blog</a></li>
-                     <li><a href="contact.html">Contact</a></li>
-                     <li><a class="login-button" href="#"><span class="white-text blue-text">Retail Login</span></a></li>
+                     <li><a class="contact-button" href="contact.html"><span class="white-text blue-text">Contact</span></a></li>
                    </ul>
                  </nav>
                <!-- End Desktop Menu -->
             </div>
         </header>
 
+        <main>
+          <!-- Banner Section -->
+          <section class="banner-section">
+            <div class="banner-content">
+              <h1>Optix in Your View</h1>
+              <p>We are more than an eyewear company. We bring everything into focus. We help you see your ideas and bring them to life.</p>
+              <button class="button shop-now"><a href="products.html">Shop Now</a></button>
+            </div>
+          </section>
+
+          <!-- Sub-Section -->
+          <section class="sub-section">
+            <div class="row d-flex flex-row-reverse m-2">
+              <div class="col-md-6">
+                <h2>We See You.</h2>
+                <p>You want fashion without compromising function. Our glasses won't break when you take them off and toss them at the end of a long day. Or if your child loses a pair - that's okay. Our frames don't break the bank.</p>
+              </div>
+
+              <div class="col-md-6">
+                <figure>
+                  <img class="sunglasses-image" src="images/sunglasses.jpeg" alt="photo of a man and woman outside wearing sunglasses">
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <!-- Featured Products Section -->
+          <section class="featured-products">
+            <h2 class="heading-center">Our Best Sellers</h2>
+          </section>
+
+          <!-- Customer Testimonoial Section -->
+          <section class="customer-testimonials">
+            <h2 class="heading-center">Customer Testimonials</h2>
+            <div class="row boxes">
+              <div class="col-lg-4 blue testimonial-box">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>I've always wanted a pair of glasses to help me see but was afraid I wouldn't be able to find the perfect pair. When I saw the advertisement for glasses, I knew they were the ones. I've been wearing them for over a month now & they are great! The lenses are perfect for my prescription.</p>
+                <hr>
+                <p>Shane A.</p>
+              </div>
+
+              <div class="col-lg-4 gray testimonial-box">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>I love my freedom and was willing to spend a lot for it. The best part about the Midas glasses is that they are so stylish and you can find a style that suits your need, whether it's prescription glasses or fashion. It's totally worth the investment!</p>
+                <hr>
+                <p>Jason B.</p>
+              </div>
+
+              <div class="col-lg-4 blue testimonial-box">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Thank you for helping me see, Eyediology! Five stars for experience and value for my prescription sunglasses. </p>
+                <hr>
+                <p>Jane D.</p>
+              </div>     
+            </div>
+          </section>
+
+          <!-- Categories Section -->
+          <section class="categories">
+            <h2 class="heading-center">Shop by Category</h2>
+          
+              <div class="category-container">
+                <div class="row m-2">
+                  <div class="col-sm-6">
+                    <!-- Men -->
+                    <figure class="category-figure">
+                      <img src="images/category-men.jpg" alt="Photo of man outside wearing sunglasses">
+                      <figcaption class="category-label">Men's Glasses</figcaption>
+                    </figure>
+                    <a class="shop-now-cat" href="products.html">Shop Now <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                  
+                  <div class="col-sm-6">
+                    <!-- Women -->
+                    <figure class="category-figure">
+                      <img src="images/category-women.jpg" alt="Photo of woman outside wearing sunglasses">
+                      <figcaption class="category-label">Women's Glasses</figcaption>
+                    </figure>
+                    <a class="shop-now-cat" href="products.html">Shop Now <i class="fa-solid fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            
+          </section>
+
+          <!-- Newsletter Signup Section -->
+          <section class="newsletter-signup">
+            <h2>Get the Latest on Eyewear Trends</h2>
+            <p>Subscribe to our newsletter!</p>
+            <form>
+              <input class="subscribe-field" type="text" id="signup" name="signup" size="30" placeholder="email address">
+              <input class="button" id="submit" type="submit" value="Subscribe">
+            </form>
+          </section>
+        </main>
+
+        <!-- Footer -->
         <footer>
           <div class="footer-flex-container">
-            <img class="reverse-logo" src="images/reverse-logo.png" alt="Reverse Version of Eyediology Logo" title="Eyediology Reverse Logo" width="250">
-
-            <div class="footer-links">
-              <p class="footer-headings">Site Links</p>
-              <ul>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="#">Return Policy</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-links">
-              <p class="footer-headings">Get in Touch</p>
-              <ul>
-                <li><a href="mailto:info@tnbglasses.com">info@tnbglasses.com</a></li>
-                <li><a href="tel:+18443874289">1-844-387-4289</a></li>
-              </ul>
-            </div>
-
-            <div class="footer-socials">
-              <p class="footer-headings connect">Connect with Us</p>
-              <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
-              <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://www.twiiter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-              <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <div class="row">
+              <div class="col-lg-3">
+                <img class="reverse-logo" src="images/reverse-logo.png" alt="Reverse Version of Eyediology Logo" title="Eyediology Reverse Logo" width="250">
+              </div>
+              
+              <div class="col-lg-3 footer-links">
+                <ul>
+                  <li class="footer-headings">Site Links</li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="#">Return Policy</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+             
+              <div class="col-lg-3 footer-links">
+                <ul>
+                  <li class="footer-headings">Get in Touch</li>
+                  <li><a href="mailto:info@tnbglasses.com">info@tnbglasses.com</a></li>
+                  <li><a href="tel:+18443874289">1-844-387-4289</a></li>
+                </ul>
+              </div>
+  
+              <div class="col-lg-3 footer-socials">
+                <p class="footer-headings connect">Connect with Us</p>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.twiiter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
             </div>
           </div>
 
@@ -124,6 +226,10 @@
         </footer>
         
         <script src="scripts/script.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     </body>
 
 </html>

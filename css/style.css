@@ -323,8 +323,9 @@ li.mobile-nav {
 /* Customer Testimonial Section */
 .customer-testimonials {
   text-align: center;
-  margin: 10px;
+  /* margin: 10px; */
   padding: 20px;
+  background-color: #C7EDF7;
 }
 
 .testimonial-box {
@@ -335,20 +336,16 @@ li.mobile-nav {
 }
 
 .fa-quote-left {
-  color: #20B2DA;
-  background-color: #FFF;
+  color: #FFF;
+  background-color: #20B2DA;
   font-size: 30px;
   padding: 10px;
   margin-bottom: 6px;
   border-radius: 30px;
 }
 
-.blue {
-  background-color: #C7EDF7;
-}
-
-.gray {
-  background-color: #e2ecef;
+.white {
+  background-color: #fafbfb;
 }
 
 /* Category Section */

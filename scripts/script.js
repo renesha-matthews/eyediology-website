@@ -1,5 +1,5 @@
 
-// Hamburger Menu
+///////// Hamburger Menu /////////
 // CodePen: https://codepen.io/waldyp/pen/aPoVZN
 $(document).ready(function(){
     $('#nav-toggle').click(function(){
@@ -12,8 +12,48 @@ $(document).ready(function(){
       }
     });
   });
+
+  ///////// Slick Slider /////////
+  $('.responsive-slider').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+          arrows: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: true
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true
+        }
+      }
+    ]
+  });
+
+  
  
-  // Contact Form
+  ///////// Contact Form /////////
   $(document).ready(function(){
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {

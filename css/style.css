@@ -312,7 +312,7 @@ li.mobile-nav {
   margin-left: auto;
 }
 
-.best-sellers figure, .products figure {
+.best-sellers figure {
   margin: 10px;
 }
 
@@ -399,6 +399,11 @@ figcaption.category-label {
   border: 0;
 }
 
+/* All Sections */
+.section-margin {
+  margin-top: 70px;
+}
+
 /******************** About Page ********************/
 .about-page section {
   margin-top: 20px;
@@ -415,6 +420,49 @@ figcaption.category-label {
 /******************** Products Page ********************/
 .products {
   margin-top: 50px;
+  text-align: center;
+}
+
+.filter-container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  color: #07262F;
+  line-height: 100px;
+  text-align: center;
+  /* margin: 2px; */
+  display: none;
+}
+
+.filterDiv figure img {
+  max-width: 300px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #C7EDF7;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #6D868D;
+  color: #fff;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #20B2DA;
+  color: white;
 }
 
 /******************** Blog Page ********************/

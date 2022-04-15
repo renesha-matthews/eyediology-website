@@ -89,48 +89,226 @@
       <main>
         <section class="products">
           <h2 class="heading-center">Our Products</h2>
-          <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <figure>
-                <img class="best-seller-image" src="images/best-seller1.jpeg" alt="Best seller product number one. Model number is Midas-MC-8107" title="Midas-MC-8107">
-                <figcaption>Midas-MC-8107</figcaption>
-              </figure>
+          
+          <!-------------------- Control Buttons for Filter -------------------->
+          <div id="button-container">
+            <button class="btn active" onclick="filterSelection('all')">Show All</button>
+            <button class="btn" onclick="filterSelection('women')">Women</button>
+            <button class="btn" onclick="filterSelection('man')">Men</button>
+            <button class="btn" onclick="filterSelection('sunglasses')">Sunglasses</button>
+          </div>
+
+          <!-------------------- Women Filter -------------------->
+          <div class="filter-container">
+            <div class="row mx-auto">
+              <div class="filterDiv women col-md-4">
+                <figure>
+                  <img src="images/midas-mc-7805.jpeg" alt="Model number MIDAS-MC-7805" title="MIDAS-MC-7805">
+                  <figcaption>MIDAS-MC-7805</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv women col-md-4">
+                <figure>
+                  <img src="images/midas-mc-l12.jpeg" alt="Model number MIDAS-MC-L12" title="MIDAS-MC-L12">
+                  <figcaption>MIDAS-MC-L12</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv women col-md-4">
+                <figure>
+                  <img src="images/midas-j3021.jpeg" alt="Model number MIDAS-J3021" title="MIDAS-J3021">
+                  <figcaption>MIDAS-J3021</figcaption>
+                </figure>
+              </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <figure>
-                <img class="best-seller-image" src="images/best-seller2.jpeg" alt="Best seller product number two. Model number is Midas-MC-L12" title="Midas-MC-L12">
-                <figcaption>Midas-MC-L12</figcaption>
-              </figure>
+            <div class="row mx-auto">
+              <div class="filterDiv women col-md-4">
+                <figure>
+                  <img src="images/midas-j3079.jpeg" alt="Model number MIDAS-J3079" title="MIDAS-J3079">
+                  <figcaption>MIDAS-J3079</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv women col-md-4">
+                <figure>
+                  <img src="images/midas-mc-8025.jpeg" alt="Model number MIDAS-MC-8025" title="MIDAS-MC-8025">
+                  <figcaption>MIDAS-MC-8025</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv women col-md-4">
+                <figure>
+                  <img src="images/midas-mc-8083.jpeg" alt="Model number MIDAS-MC-8083" title="MIDAS-MC-8083">
+                  <figcaption>MIDAS-MC-8083</figcaption>
+                </figure>
+              </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <figure>
-                <img class="best-seller-image" src="images/best-seller3.jpeg" alt="Best seller product number three. Model number is Midas-J3021" title="Midas-J3021">
-                <figcaption>Midas-J3021</figcaption>
-              </figure>
+            <div class="row mx-auto">
+              <div class="filterDiv women col-md-4">
+                <figure>
+                  <img src="images/midas-mc-8113.jpeg" alt="Model number MIDAS-MC-8113" title="MIDAS-MC-8113">
+                  <figcaption>MIDAS-MC-8113</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv women col-md-4">
+                <figure>
+                  <img src="images/midas-gpa10047.jpeg" alt="Model number MIDAS-GPA10047" title="MIDAS-GPA10047">
+                  <figcaption>MIDAS-GPA10047</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv women col-md-4">
+                <figure>
+                  <img src="images/midas-tf5398.jpeg" alt="Model number MIDAS-TF5398" title="MIDAS-TF5398">
+                  <figcaption>MIDAS-TF5398</figcaption>
+                </figure>
+              </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <figure>
-                <img class="best-seller-image" src="images/best-seller4.jpeg" alt="Best seller product number four. Model number is Midas-SCH220" title="Midas-SCH220">
-                <figcaption>Midas-SCH220</figcaption>
-              </figure>
+            <!-------------------- Men Filter -------------------->
+            <div class="row mx-auto">
+              <div class="filterDiv man col-md-4">
+                <figure>
+                  <img src="images/midas-mi-santi.jpeg" alt="Model number MIDAS-MI-SANTI" title="MIDAS-MI-SANTI">
+                  <figcaption>MIDAS-MI-SANTI</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv man col-md-4">
+                <figure>
+                  <img src="images/midas-mc-8009.jpeg" alt="Model number MIDAS-MC-8009" title="MIDAS-MC-8009">
+                  <figcaption>MIDAS-MC-8009</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv man col-md-4">
+                <figure>
+                  <img src="images/midas-mc-8618.jpeg" alt="Model number MIDAS-MC-8618" title="MIDAS-MC-8618">
+                  <figcaption>MIDAS-MC-8618</figcaption>
+                </figure>
+              </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <figure>
-                <img class="best-seller-image" src="images/best-seller5.jpeg" alt="Best seller product number five. Model number is Midas-MI-Cat" title="Midas-MI-Cat">
-                <figcaption>Midas-MI-Cat</figcaption>
-              </figure>
+            <div class="row mx-auto">
+              <div class="filterDiv man col-md-4">
+                <figure>
+                  <img src="images/midas-mc-8620.jpeg" alt="Model number MIDAS-MC-8620" title="MIDAS-MC-8620">
+                  <figcaption>MIDAS-MC-8620</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv man col-md-4">
+                <figure>
+                  <img src="images/midas-mc-8625.jpeg" alt="Model number MIDAS-MC-8625" title="MIDAS-MC-8625">
+                  <figcaption>MIDAS-MC-8625</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv man col-md-4">
+                <figure>
+                  <img src="images/midas-mc-8133.jpeg" alt="Model number MIDAS-MC-8133" title="MIDAS-MC-8133">
+                  <figcaption>MIDAS-MC-8133</figcaption>
+                </figure>
+              </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <figure>
-                <img class="best-seller-image" src="images/best-seller6.jpeg" alt="Best seller product number six. Model number is Midas-GPA10047" title="Midas-GPA10047">
-                <figcaption>Midas-GPA10047</figcaption>
-              </figure>
+            <div class="row mx-auto">
+              <div class="filterDiv man col-md-4">
+                <figure>
+                  <img src="images/midas-mc-8148.jpeg" alt="Model number MIDAS-MC-8148" title="MIDAS-MC-8148">
+                  <figcaption>MIDAS-MC-8148</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv man col-md-4">
+                <figure>
+                  <img src="images/midas-mi-jorn.jpeg" alt="Model number MIDAS-MI-JORN" title="MIDAS-MI-JORN">
+                  <figcaption>MIDAS-MI-JORN</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv man col-md-4">
+                <figure>
+                  <img src="images/midas-tf5397.jpeg" alt="Model number MIDAS-TF5397" title="MIDAS-TF5397">
+                  <figcaption>MIDAS-TF5397</figcaption>
+                </figure>
+              </div>
             </div>
+
+            <!-------------------- Sunglasses Filter -------------------->
+            <div class="row mx-auto">
+              <div class="filterDiv sunglasses col-md-4">
+                <figure>
+                  <img src="images/midas-sch220.jpeg" alt="Model number MIDAS-SCH220" title="MIDAS-SCH220">
+                  <figcaption>MIDAS-SCH220</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv sunglasses col-md-4">
+                <figure>
+                  <img src="images/midas-mi-cat.jpeg" alt="Model number MIDAS-MI-CAT" title="MIDAS-MI-CAT9">
+                  <figcaption>MIDAS-MI-CAT</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv sunglasses col-md-4">
+                <figure>
+                  <img src="images/midas-mc-350.jpeg" alt="Model number MIDAS-MC-350" title="MIDAS-MC-350">
+                  <figcaption>MIDAS-MC-350</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="row mx-auto">
+              <div class="filterDiv sunglasses col-md-4">
+                <figure>
+                  <img src="images/midas-ve4203.jpeg" alt="Model number MIDAS-VE4203" title="MIDAS-VE4203">
+                  <figcaption>MIDAS-VE4203</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv sunglasses col-md-4">
+                <figure>
+                  <img src="images/midas-mi-square.jpeg" alt="Model number MIDAS-MI-SQUARE" title="MIDAS-MI-SQUARE">
+                  <figcaption>MIDAS-MI-SQUARE</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv sunglasses col-md-4">
+                <figure>
+                  <img src="images/midas-mi-1059.jpeg" alt="Model number MIDAS-MI-1059" title="MIDAS-MI-1059">
+                  <figcaption>MIDAS-MI-1059</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="row mx-auto">
+              <div class="filterDiv sunglasses col-md-4">
+                <figure>
+                  <img src="images/midas-mi-avi.jpeg" alt="Model number MIDAS-MI-AVI" title="MIDAS-MI-AVI">
+                  <figcaption>MIDAS-MI-AVI</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv sunglasses col-md-4">
+                <figure>
+                  <img src="images/midas-xt6012.jpeg" alt="Model number MIDAS-XT6012" title="MIDAS-XT6012">
+                  <figcaption>MIDAS-XT6012</figcaption>
+                </figure>
+              </div>
+  
+              <div class="filterDiv sunglasses col-md-4">
+                <figure>
+                  <img src="images/midas-xt801.jpeg" alt="Model number MIDAS-XT801" title="MIDAS-XT801">
+                  <figcaption>MIDAS-XT801</figcaption>
+                </figure>
+              </div>
+            </div>
+
           </div>
         </section>
 
@@ -190,5 +368,52 @@
       <!-- Bootstrap -->
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+      <!-- Filter JS -->
+      <script>
+        ///////// Filter Products /////////
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("filterDiv");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("button-container");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+      </script>
     </body>
 </html>

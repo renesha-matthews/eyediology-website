@@ -440,13 +440,24 @@ figcaption.category-label {
   padding: 50px;
 }
 
-.brand-attributes figure img {
-  margin-top: 30px;
+section.brand-attributes {
+  padding: 20px;
+}
+
+.brand-attributes a {
+  text-decoration: none;
 }
 
 .brand-attributes button {
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto;
 }
+
+.brand-attributes figure img {
+  margin: 20px auto;
+  display: block;
+}
+
 
 
 
@@ -738,7 +749,7 @@ footer ul li a {
 }
 
 /* Social Media Icons */
-.fa-brands {
+.fa-facebook-square, .fa-instagram, .fa-linkedin-in {
   color: #20B2DA;
   background-color: #FFF;
   padding: 10px;
@@ -884,12 +895,26 @@ footer ul li a {
     top: 70px;
   }
 
+  /* About - Brand Attribute Section */
+  .brand-attributes button {
+    margin: 0;
+  }
+
   /* Footer */
-  .fa-brands {
+  footer a {
     transition: .3s;
   }
   
-  .fa-brands:hover {
+  footer a:hover {
+    color: #6D868D;
+    transition: .3s;
+  }
+  
+  .fa-facebook-square, .fa-instagram, .fa-linkedin-in {
+    transition: .3s;
+  }
+  
+  .fa-facebook-square:hover, .fa-instagram:hover, .fa-linkedin-in:hover {
     color: #FFF ;
     background-color: #20B2DA;
     transition: .3s;

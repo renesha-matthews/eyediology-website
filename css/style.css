@@ -70,6 +70,7 @@ img {
   padding: 12px 72px;
   border-radius: 25px;
   border: none;
+  font-size: 18px;
 }
 
 .shop-now {
@@ -405,17 +406,49 @@ figcaption.category-label {
 }
 
 /******************** About Page ********************/
-.about-page section {
+
+.about-page h2, .about-page p {
+  margin: 10px;
+}
+
+.about-us {
+  background: url('../images/about-us-banner.jpeg');
+  background-position: center center;
+  background-size: cover;
+  background-color: rgb(36 47 50 / 50%);
+  background-blend-mode: overlay;
+  max-height: 100%;
+  height: 530px;
+  margin-top: -10px!important;
+}
+
+
+.about-us h1, .about-us p {
+  color: #FFF;
+  text-align: center;
+  position: relative;
+  top: 160px;;
+}
+
+.about-content {
+  padding: 10px;
+}
+
+.mission-statement {
+  background-color: #C7EDF7;
+  text-align: center;
+  padding: 50px;
+}
+
+.brand-attributes figure img {
+  margin-top: 30px;
+}
+
+.brand-attributes button {
   margin-top: 20px;
 }
 
-.about-page h2 {
-  margin-left: 10px;
-}
 
-.about-page ul li {
-  margin: 10px;
-}
 
 /******************** Products Page ********************/
 .products {
@@ -764,16 +797,25 @@ footer ul li a {
     color: #20B2DA;
     transition: .3s;
   }
+
+  .blue-outline {
+    transition: .3s;
+  }
+
+  .blue-outline:hover {
+    border: 1px solid #20B2DA;
+    transition: .3s;
+  }
 }
 
 /**** End 517px Media Query ****/
 
 /**** Start 550px Media Query ****/
-@media (min-width:500px) {
+/* @media (min-width:500px) {
   .map {
     margin-left: 10px;
   }
-}
+} */
 
 /**** End 550px Media Query ****/
 
@@ -790,6 +832,15 @@ footer ul li a {
 }
 
 /**** End 557px Media Query ****/
+
+/**** Start 560px Media Query ****/
+@media(min-width: 560px) {
+  .about-content {
+    padding: 50px;
+  }
+}
+
+/**** End 560px Media Query ****/
 
 /**** Start 575px Media Query ****/
 @media (max-width: 575px) {
@@ -818,12 +869,12 @@ footer ul li a {
 
 /**** Start 768px Media Query ****/
 @media(min-width: 768px) {
-  /* Banner Section */
+  /* Banner Sections */
   h1 {
     font-size: 4rem;
   }
 
-  .banner-content p {
+  .banner-content p, .about-us p {
     font-size: 20px;
   }
 
@@ -848,11 +899,11 @@ footer ul li a {
 /**** End 768px Media Query ****/
 
 /**** Start 900px Media Query ****/
-@media(min-width: 900px) {
+/* @media(min-width: 900px) {
   main.about-page {
     margin-left: 70px;
   }
-}
+} */
 /**** End 900px Media Query ****/
 
 /**** Start 991px Media Query ****/
@@ -993,11 +1044,15 @@ footer ul li a {
     font-size: 1.5rem;
   }
 
+  .banner-section, .about-us {
+    height: 630px;
+}
+
   .banner-content {
     margin-left: 50px;
   }
   
-  .banner-section h1 {
+  .banner-section h1, .about-us h1 {
     font-size: 6rem;
   }
 

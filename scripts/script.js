@@ -1,4 +1,3 @@
-
 ///////// Hamburger Menu /////////
 // CodePen: https://codepen.io/waldyp/pen/aPoVZN
 $(document).ready(function(){
@@ -13,8 +12,6 @@ $(document).ready(function(){
     });
   });
 
-  // Carousel
-  $('.carousel').carousel()
 
 
   ///////// Let user know that they have successfully scubscribed to newsletter /////////

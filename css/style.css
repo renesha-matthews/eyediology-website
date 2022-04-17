@@ -1074,12 +1074,6 @@ footer ul li a {
     transition: .3s;
   }
 
-  .contact-button {
-    background-color: #20B2DA;
-    padding: 8px 40px;
-    border-radius: 25px;
-}
-
 .white-text {
   color: #FFF;
 }

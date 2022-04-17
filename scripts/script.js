@@ -13,44 +13,23 @@ $(document).ready(function(){
     });
   });
 
-  ///////// Slick Slider /////////
-  $('.responsive-slider').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    arrows: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-          arrows: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          arrows: true
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: true
-        }
-      }
-    ]
-  });
+  // Carousel
+  $('.carousel').carousel()
 
+
+  ///////// Let user know that they have successfully scubscribed to newsletter /////////
+  var subscribeBtn = document.getElementsByClassName("subscribe");
+  var subscribeMessage = document.createElement('p');
+
+  subscribeMessage.id = "subscribe-message";
+
+  subscribeMessage.innerHTML = "Successfull subscribed!";
+
+  subscribeBtn.addEventListener("click", 
+    function() {
+      document.getElementById("newsletter-signup").appendChild(subscribeMessage);
+    }, false
+  );
   
  
   ///////// Contact Form /////////

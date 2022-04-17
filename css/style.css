@@ -302,24 +302,39 @@ li.mobile-nav {
 }
 
 /* Bestseller Section */
-.image-source {
-  text-align: center;
+.heading-center {
+  margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #6D868D;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #C7EDF7;
+}
+
+.carousel-item img {
+  width: 900px;
+}
+
+.carousel-caption {
+  color: #07262F;
+  font-size: 1.5rem;
   font-style: italic;
 }
 
-.best-seller-image {
+.view-more-link {
+  text-decoration: none;
+}
+
+.view-more {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 40px auto;
 }
 
-.best-sellers figure {
-  margin: 10px;
-}
 
-.best-sellers figcaption, .products figcaption {
-  text-align: center;
-}
+
 
 /* Customer Testimonial Section */
 .customer-testimonials {
@@ -893,6 +908,10 @@ footer ul li a {
   .sub-section h2, .sub-section p {
     position: relative;
     top: 70px;
+  }
+
+  .carousel-caption {
+    left: 530px;
   }
 
   /* About - Brand Attribute Section */

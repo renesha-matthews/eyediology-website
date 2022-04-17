@@ -499,6 +499,7 @@ section.brand-attributes {
 
 .filter-container {
   overflow: hidden;
+  margin: 50px;
 }
 
 .filterDiv {
@@ -522,9 +523,10 @@ section.brand-attributes {
 .btn {
   border: none;
   outline: none;
-  padding: 12px 16px;
   background-color: #C7EDF7;
   cursor: pointer;
+  padding: 14px;
+  margin: 8px;
 }
 
 /* Add a light grey background on mouse-over */
@@ -537,6 +539,16 @@ section.brand-attributes {
 .btn.active {
   background-color: #20B2DA;
   color: white;
+}
+
+.model-number {
+  color:#6D868D;
+  font-size: 1.5rem;
+}
+
+.price {
+  margin-top: -68px;
+  font-weight: bold;
 }
 
 /******************** Blog Page ********************/
@@ -1078,6 +1090,10 @@ footer ul li a {
 
 .mx-auto {
   width: 830px;
+}
+
+.filter-row {
+  width: 1300px;
 }
 
 /* Footer */

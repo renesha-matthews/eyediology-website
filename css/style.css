@@ -506,8 +506,9 @@ section.brand-attributes {
   color: #07262F;
   line-height: 100px;
   text-align: center;
-  /* margin: 2px; */
   display: none;
+  border-bottom: 1px solid #07262F;
+  padding: 30px;
 }
 
 .filterDiv figure img {

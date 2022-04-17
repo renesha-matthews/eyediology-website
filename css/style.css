@@ -371,6 +371,7 @@ li.mobile-nav {
   padding: 16px;
   width: 295px;
   height: 353px;
+  border-radius: 20px;
 }
 
 .fa-quote-left {

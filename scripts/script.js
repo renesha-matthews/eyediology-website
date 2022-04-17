@@ -12,7 +12,14 @@ $(document).ready(function(){
       }
     });
   });
- 
+
+  
+// suscribe
+  var form = document.querySelector('form');
+
+  form.onsubmit = function(e) {
+    e.preventDefault();
+  };
   // Contact Form
   $(document).ready(function(){
     // Add smooth scrolling to all links

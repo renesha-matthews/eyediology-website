@@ -430,7 +430,7 @@ figcaption.category-label {
   width: 100%;
 }
 .blog-post {
-  padding-left: 0;
+  padding-left: 8%;
   padding-right: 0;
 }
 
@@ -442,6 +442,7 @@ figcaption.category-label {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: justify;
 }
 .post a {
   text-decoration: none;
@@ -478,7 +479,7 @@ figcaption.category-label {
   color: #aaa;
 }
 .post-body{
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 
@@ -497,7 +498,7 @@ figcaption.category-label {
 
 .blog-post .post-thumbnail img {
   width: 70%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .blog-post .post-body {
   margin-top: 10px;
@@ -512,7 +513,7 @@ figcaption.category-label {
 }
 
 .blog-post .post-body p {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .blog-post .post-body p:not(.lead) {
@@ -520,6 +521,18 @@ figcaption.category-label {
   line-height: 1.7em;
   color: #555;
 }
+form input[type="email"] {
+  margin-right: 15px;
+  width: 300px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #20B2DA;
+  padding: 8px 40px;
+  border-radius: 25px;
+}
+
+
+
 
 
 /**** Latest ****/
@@ -561,7 +574,10 @@ img.contact-fluid {
   text-align: center;
   color: white;
 }
-
+.form-description{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
 
 .contact-form {
   display: list-item;
@@ -674,12 +690,8 @@ footer ul li a {
     font-size: 0.75em;
   }
   .post-heading {
-    display: block;
-    font-size: 1.1em;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    display: flex;
+    font-size: 1em;
     font-weight: bold;
   }
 }
@@ -749,10 +761,6 @@ footer ul li a {
   .post-heading {
     display: block;
     font-size: 1.3em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
   }
 }
@@ -825,11 +833,7 @@ footer ul li a {
   }
   .post-heading {
     display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 1em;
     font-weight: bold;
 }
 }
